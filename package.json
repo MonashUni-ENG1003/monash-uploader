@@ -1,9 +1,12 @@
 {
   "name": "monash-uploader",
   "main": "./lib/monash-eng1003-package",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Assignment Uploader for some Monash Units",
-  "keywords": ["eng1003","assignment","uploader"
+  "keywords": [
+    "eng1003",
+    "assignment",
+    "uploader"
   ],
   "activationCommands": {
     "atom-workspace": "monash-eng1003-package:toggle"
@@ -13,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
