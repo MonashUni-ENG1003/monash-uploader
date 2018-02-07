@@ -1,0 +1,40 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Monash Assignment Uploader",
+        "command": "monash-eng1003-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Monash Assignment Uploader",
+          "submenu": [
+            {
+              "label": "Upload",
+              "command": "monash-eng1003-package:toggle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "File",
+      "submenu": [
+        {
+          "label": "Monash Assignment Uploader",
+          "submenu": [
+            {
+              "label": "Upload",
+              "command": "monash-eng1003-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
